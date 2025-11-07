@@ -1,0 +1,24 @@
+{
+  "articles": [
+    {
+      "title": "Technology as Force Multiplier for Social Good",
+      "slug": "technology-force-multiplier",
+      "excerpt": "How purpose-driven technology strategies accelerate inclusive growth and create lasting systemic change.",
+      "date": "2025-01-15",
+      "category": "Technology",
+      "tags": ["Social Impact", "Innovation", "Digital Transformation"],
+      "image": "images/featured/technology-force-multiplier.webp",
+      "url": "#"
+    },
+    {
+      "title": "The Future of Corporate Citizenship",
+      "slug": "future-corporate-citizenship",
+      "excerpt": "Moving from programs to systems change through strategic CSR frameworks.",
+      "date": "2024-12-10",
+      "category": "Leadership",
+      "tags": ["CSR", "ESG", "Systems Change"],
+      "image": "images/articles/corporate-citizenship.webp",
+      "url": "#"
+    }
+  ]
+}
