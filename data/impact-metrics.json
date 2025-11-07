@@ -1,0 +1,28 @@
+{
+  "metrics": [
+    {
+      "value": "30M+",
+      "count": 30,
+      "label": "People Empowered",
+      "description": "Women, youth, marginalized groups across 55 countries"
+    },
+    {
+      "value": "$650M",
+      "count": 650,
+      "label": "Community Investment",
+      "description": "Technology innovations in education, health, sustainability"
+    },
+    {
+      "value": "20M+",
+      "count": 20,
+      "label": "Volunteer Hours",
+      "description": "Employee engagement in service of social challenges"
+    },
+    {
+      "value": "188",
+      "count": 188,
+      "label": "Strategic Partners",
+      "description": "Cross-sector collaborations for systems change"
+    }
+  ]
+}
