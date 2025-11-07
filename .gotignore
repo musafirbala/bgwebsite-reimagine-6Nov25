@@ -1,0 +1,64 @@
+# Git ignore file for Balaji Portfolio
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Editor Files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Node modules (if using build tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs (if using build process)
+dist/
+build/
+.cache/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Source files (keep optimized versions only)
+# Uncomment if you want to exclude source images
+# images/src/
+# videos/src/
+
+# Backup files
+*.bak
+*.backup
+
+# Cloudflare local development
+.wrangler/
+wrangler.toml.local
+
+# Test files
+test/
+tests/
+*.test.js
+
+# Documentation drafts
+drafts/
+TODO.md
+NOTES.md
