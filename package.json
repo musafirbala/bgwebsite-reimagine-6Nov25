@@ -1,0 +1,54 @@
+{
+  "name": "balaji-ganapathy-portfolio",
+  "version": "1.0.0",
+  "description": "Production-ready portfolio website for Balaji Ganapathy - Chief Social Responsibility Officer",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=8080 --open=/",
+    "minify:css": "cleancss -o css/main.min.css css/main.css",
+    "minify:js": "terser js/main.js -o js/main.min.js -c -m",
+    "minify": "npm run minify:css && npm run minify:js",
+    "optimize:images": "node scripts/optimize-images.js",
+    "optimize": "npm run minify && npm run optimize:images",
+    "validate:html": "html-validate *.html",
+    "test": "npm run validate:html",
+    "lighthouse": "lighthouse https://balajiganapathy.com --view",
+    "deploy": "wrangler pages deploy . --project-name=balaji-portfolio --branch=main"
+  },
+  "keywords": [
+    "portfolio",
+    "social-impact",
+    "csr",
+    "esg",
+    "balaji-ganapathy",
+    "cloudflare-pages",
+    "static-site"
+  ],
+  "author": "Balaji Ganapathy <contact@balajiganapathy.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR-USERNAME/balaji-portfolio.git"
+  },
+  "homepage": "https://balajiganapathy.com",
+  "devDependencies": {
+    "clean-css-cli": "^5.6.2",
+    "terser": "^5.26.0",
+    "sharp": "^0.33.1",
+    "html-validate": "^8.9.1",
+    "live-server": "^1.2.2",
+    "lighthouse": "^11.4.0",
+    "wrangler": "^3.22.1"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
